@@ -505,8 +505,10 @@ public class ACamera extends Activity implements SurfaceHolder.Callback {
 
 	// 识别API的URL
 	public static final String ENGINE_URL = "http://eng.ccyunmai.com:5008/SrvEngine";
-	public static final String username = "yunmaiapp20160202";
-	public static final String password = "2015sjunxhsjwusl0106sjskskdkjdjsk";
+//	public static final String username = "yunmaiapp20160202";
+//	public static final String password = "2015sjunxhsjwusl0106sjskskdkjdjsk";
+	public static final String username = "";
+	public static final String password = "";
 
 	// public static final String username="test150113";
 	// public static final String password="sadfaweuryeydfds45748sdsdfsd5";
