@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cc.ocr.yunapp.idcard"
+    android:installLocation="auto"
+    android:versionCode="8"
+    android:versionName="V1.0.20160803" >
+    <uses-sdk
+        android:minSdkVersion="5"
+        android:targetSdkVersion="7" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.yunmai.android.bcr.LoadActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.yunmai.android.bcr.ACamera"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="54bf1a39fd98c54271000411" >
+        </meta-data>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="OCR_YUNAPP_ALL" >
+        </meta-data>
+        <activity
+            android:name="com.yunmai.android.bcr.AboutActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <receiver android:name="com.yunmai.android.bcr.receiver.DownloadReceiver" >
+            <intent-filter>
+                <action android:name="com.yunmai.android.ocrIdcard.UPGRADE_DOWNLOAD" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

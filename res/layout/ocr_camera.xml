@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <SurfaceView
+            android:id="@+id/camera_preview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+        <com.yunmai.android.bcr.views.ScreenSetting
+            android:id="@+id/camera_screen_setting"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+
+        
+        <ProgressBar
+        android:id="@+id/reco_recognize_bar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+        
+    </RelativeLayout>
+
+
+        <ImageButton
+            android:id="@+id/camera_shutter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@android:color/transparent"
+            android:src="@drawable/bcr_camera_shutter" />
+        
+         <Button
+            android:id="@+id/camera_import"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:drawableTop="@drawable/camera_import"
+            android:background="@android:color/transparent"
+            android:layout_margin="10dip"
+            android:textColor="@android:color/white"
+           android:text="导入识别"/>
+
+        <ImageButton
+            android:id="@+id/camera_flash"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:src="@drawable/bcr_camera_flash_auto" 
+            android:visibility="gone"/>
+    
+   
+    
+    <Button android:id="@+id/bt_about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dip"
+        android:text=" 联 系 方 式 "/>
+    
+     <Button android:id="@+id/bt_s"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dip"
+        android:layout_toRightOf="@+id/bt_about"
+        android:drawableRight="@drawable/bt_s"
+        android:text="二代证"
+        android:visibility="invisible"/>
+    
+    <EditText android:id="@+id/et_result"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"
+        android:gravity="top"
+        android:editable="false"
+        android:visibility="gone"/>
+
+    
+    <EditText android:id="@+id/et_about"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"
+        android:gravity="top"
+        android:text="@string/camera_about"
+        android:editable="false"
+        android:padding="20dip"
+        android:visibility="gone"/>
+   <ImageView android:id="@+id/iv_head"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_alignParentRight="true"
+        android:padding="10dip"
+        android:background="@null"
+        android:visibility="gone"/>
+</RelativeLayout>

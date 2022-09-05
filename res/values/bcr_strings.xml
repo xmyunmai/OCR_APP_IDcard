@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">云脉身份证云识别</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="yes">是</string>
+    <string name="dialog_tip">提示</string>
+    <!-- camera -->
+    <string name="camera_open_error">相机未正常开启，请重启手机后重试！</string>
+    <string name="camera_support_flash_error">相机不支持闪关灯设置</string>
+    <string name="camera_sdcard_error">SdCard已满或未检测到SdCard</string>
+    <string name="camera_take_picture_error">拍照失败</string>
+    <string-array name="select_items">
+        <item>身份证</item>
+        <item>银行卡</item>
+        <item>名片</item>
+        <item>文档</item>
+        <item>行驶证</item>
+        <item>驾照</item>
+        <item>护照</item>
+        <item>车牌</item>
+    </string-array>
+    <string-array name="select_action">
+        <item>idcard</item>
+        <item>bankcard</item>
+        <item>scan</item>
+        <item>doc</item>
+        <item>driving</item>
+        <item>driver</item>
+        <item>passport</item>
+        <item>plate</item>
+    </string-array>
+    <string name="camera_about">  项 目 合 作：400-8788-295 \r\n\r\n客 服 电  话：400-0592-812 \r\n\r\n云脉微信号：OCR-yunmai    \r\n\r\n电 子 邮   箱：sales@yunmai.cn  \r\n\r\n公 司 网  址：http://www.yunmai.com \r\n\r\n厦门云脉技术有限公司    </string>
+    <!-- about -->
+    <string name="about_phone">项 目 合 作：400-8788-295</string>
+    <string name="about_service_tel">客 服 电  话：400-0592-812</string>
+    <string name="about_wechat">云脉微信号：OCR-yunmai</string>
+    <string name="about_email">电 子 邮   箱：sales@yunmai.cn</string>
+    <string name="about_web">公 司 网  址：http://www.yunmai.com</string>
+    <string name="about_company">厦门云脉技术有限公司</string>
+    <string name="about_new">检查更新</string>
+    <string name="not_find_version_name">找不到版本号</string>
+    <!-- upgrade -->
+    <string name="upgrade_db_ing">数据库升级中。。。</string>
+    <string name="upgrade_db_success">升级成功</string>
+    <string name="upgrade_db_failed">升级失败</string>
+    <string name="main_version_update">版本升级</string>
+    <string name="d_dialog_modify">更新</string>
+    <string name="d_dialog_cancel">取消</string>
+    <string name="upgrade_No_network">无网络连接，请重新连接网络</string>
+    <string name="setting_activity_no_network">无网络连接</string>
+    <string name="d_updata">正在后台升级，请稍后...</string>
+    <string name="d_engine_updata">引擎升级</string>
+    <string name="d_engine_expire">识别引擎过期</string>
+    <string name="err_http_error">访问服务器失败</string>
+    <string name="last_version">已是最新版</string>
+    <string name="check_updating">正在检查更新</string>
+    <string name="about_upgrade">检查更新</string>
+    <string name="download_ing">正在下载···</string>
+    <string name="notification_download_done">下载完成</string>
+    <string name="download_receiver_error_msg">下载异常,请重新下载安装！</string>
+    <string name="bcr_file_progressbar_load_title">加载中</string>
+</resources>
