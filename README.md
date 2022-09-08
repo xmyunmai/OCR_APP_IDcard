@@ -1,5 +1,5 @@
 # OCR_APP_IDcard
-1身份证云识别，可以拍照或导入身份证图片进行识别
+1云脉身份证云识别，可以拍照或导入身份证图片进行识别
 
 2.https://github.com/xmyunmai/OCR_APP_IDcard  下载demo
 
